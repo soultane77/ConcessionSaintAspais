@@ -1,0 +1,155 @@
+body {
+    background-color: whitesmoke;
+margin: 0;
+  padding: 0;
+}
+
+header {
+    background-color: black;
+    font-family: 'LuxuriousScript-Regular';
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+
+#logo {
+    width: 400px;
+    height: 260px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Luxurious Script', cursive;
+}
+
+h3 {
+    font-size: 37px;
+    color: gold;
+    text-align: center;
+    font-family: 'Lora', serif;
+
+background-image: url("../images/Mercedes_AMG_Classe_E_53_4MATIC.jpeg");
+  background-position: center center; 
+  padding-top: 50px;
+  padding-bottom:  600px; 
+  margin-top: 0px;
+  box-shadow: 0px 0px 5px #888888;
+  text-shadow: 2px 2px 2px #000;
+  text-transform: none;
+}
+h7 {
+   font-size: 18px;
+    color: gold;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+
+p {
+    text-align: left;
+}
+
+#navi {
+    padding: 0;
+    margin: 0;
+    background-color: #8F8F8F;
+    left: 0;
+    right: 0;
+}
+
+li {
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+    margin: 10px 2vw; }
+
+
+a {
+    text-decoration: none;
+    color: gold;
+box-shadow: 0px 0px 5px #888888;
+    text-shadow: 2px 2px 2px #000;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+#AMG {
+    width: 500px;
+    margin-left: 60px;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+
+#merco {
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    width: 80%; 
+    box-sizing: border-box;
+    padding: 10px; 
+    text-align: center; 
+}
+
+#merco img {
+    width: 100%; 
+    height: auto;
+    max-width: 100%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.AMG {
+    text-align: center;
+    margin-top: 0px;
+}
+
+footer {
+    background-color: #8F8F8F;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 480px) {
+    #logo {
+        width: 200px;
+        height: 130px;
+    }
+
+    #AMG {
+        width: 250px;
+        margin-left: 10px;
+    }
+
+    #merco {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    #logo {
+        width: 300px;
+        height: 195px;
+    }
+
+    #AMG {
+        width: 350px;
+        margin-left: 30px;
+    }
+
+    #merco {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+
+@media screen and (min-width: 1025px) {
+  
+}
+

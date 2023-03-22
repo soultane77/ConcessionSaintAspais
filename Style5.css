@@ -1,0 +1,100 @@
+body
+{
+    background-color: whitesmoke;
+}
+header
+{
+    background-color: black;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+#logo
+{
+    width: 400px;
+    height: 260px;
+}
+#navi
+{
+    padding: 0;
+    margin: 0;
+    background-color: #8F8F8F;
+    left: 0;
+    right: 0;
+}
+h1
+{
+    text-align: center;
+    font-family : 'Luxurious Script', cursive ;
+}
+li
+{
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+    margin: 50 50 50 15px;
+}
+span
+{
+    font-weight: bold;
+    font-size: 40px;
+}
+.reserve
+{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    border: solid;
+    border-radius: 10px;
+    background-color: #8F8F8F;
+    margin-left: 650px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+p
+{
+    text-align: center;
+    font-size: 25px;
+}
+h2
+{
+    text-align: center;
+    font-size: 50px;
+}
+img
+{
+    width: 600px;
+    height: 350px;
+    border-radius: 7px;
+    border: black solid;
+}
+#AMG
+{
+    width: 500px;
+    margin-left: 60px;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+#merco
+{
+    border: solid;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-radius: 5%;
+}
+.AMG
+{
+    text-align: center;
+    margin-top: 0px;
+}
+footer
+{
+    background-color: #8F8F8F;
+    text-align: center;
+}

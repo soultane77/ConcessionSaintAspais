@@ -1,0 +1,121 @@
+body
+{
+    background-color: whitesmoke;
+margin: 0;
+  padding: 0;
+}
+header
+{
+    background-color: black;
+    font-family: 'LuxuriousScript-Regular';
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+#logo
+{
+    width: 400px;
+    height: 260px;
+}
+#navi
+{
+    padding: 0;
+    margin: 0;
+    background-color: #8F8F8F;
+    left: 0;
+    right: 0;
+}
+h1
+{
+    text-align: center;
+    font-family : 'Luxurious Script', cursive ;
+}
+li {
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+    margin: 10px 2vw; 
+}
+
+a
+{
+    text-decoration: none;
+ color: gold;
+box-shadow: 0px 0px 5px #888888;
+    text-shadow: 2px 2px 2px #000;
+
+    text-transform: uppercase;
+    font-size: 17px;
+}
+footer
+{
+    background-color: #8F8F8F;
+    text-align: center;
+}
+
+form {
+max-width: 500px;
+margin: auto;
+padding: 20px;
+background-color: #f2f2f2;
+border-radius: 5px;
+box-shadow: 0px 0px 5px #888888;
+}
+input[type=text], textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+}
+input[type=submit] {
+background-color: black;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+input[type=submit]:hover {
+background-color: black;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #e74c3c;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #c0392b;
+}

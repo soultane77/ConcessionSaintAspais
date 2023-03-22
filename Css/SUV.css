@@ -1,0 +1,85 @@
+body
+{
+    background-color: whitesmoke;
+margin: 0;
+  padding: 0;
+}
+header
+{
+    background-color: black;
+    font-family: 'LuxuriousScript-Regular';
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+#logo
+{
+    width: 400px;
+    height: 260px;
+}
+#navi
+{
+    padding: 0;
+    margin: 0;
+    background-color: #8F8F8F;
+    left: 0;
+    right: 0;
+}
+h1
+{
+    text-align: center;
+    font-family : 'Luxurious Script', cursive ;
+}
+li {
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+    margin: 10px 2vw; 
+}
+a
+{
+    text-decoration: none;
+ color: gold;
+box-shadow: 0px 0px 5px #888888;
+    text-shadow: 2px 2px 2px #000;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+#AMG
+{
+    width: 500px;
+    margin-left: 60px;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+#merco {
+    border: solid;
+border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    width: 50%; 
+    box-sizing: border-box;
+    padding: 10px; 
+    text-align: center; 
+}
+
+#merco img {
+    width: 100%; 
+    height: auto;
+    max-width: 100%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.AMG
+{
+    text-align: center;
+    margin-top: 0px;
+}
+footer
+{
+    background-color: #8F8F8F;
+    text-align: center;
+}
